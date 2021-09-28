@@ -19,4 +19,16 @@ This section provides you links to tools and interfaces that you probably will n
 ### Version control
 When building and in particular testing a model it is easy to loose track of what changes one has done in the data of the model. A good option to prevent a mess of files with names only the author (hopefully)understands, is version control. Initially it might feel like a burden, but on the long-run it pays back. Here a [tutorial how to get going with GitHub](https://coderefinery.github.io/git-intro/).
 ### Data handling
-OSeMOSYS datafiles are simple `txt`files. However, once you start populating your model with technologies, fuels, and boundary constraints `txt`files become quickly unpractical.
+OSeMOSYS datafiles are simple `txt`files. However, once you start populating your model with technologies, fuels, and boundary constraints `txt`files become quickly unpractical. Therefore the python package otoole has been developed to allow the conversion into datapackages (a folder with one csv file per parameter) or excel file and back.
+The documentation on how to install otoole and how to use it can be found [here](https://otoole.readthedocs.io/en/latest/).
+
+## The model code and how to run it
+### Model code
+The OSeMOSYS code are available on [GitHub](https://github.com/OSeMOSYS/OSeMOSYS_GNU_MathProg/tree/master/src).
+### Running a model
+An explanation on how to run models is available in the [OSeMOSYS documentation](https://osemosys.readthedocs.io/en/latest/manual/Create%20a%20model%20in%20OSeMOSYS.html#how-to-run-osemosys-using-a-macos-operating-system).
+
+## Help
+- A good place to start searching when having questions is the [OSeMOSYS documentation](https://osemosys.readthedocs.io/en/latest/index.html).
+- Many questions are already on the [OSeMOSYS forum](https://groups.google.com/g/osemosys). And if a question is missing please feel free to post it!
+- If you have got the impression that there is something missing please feel free to raise an issue here on GitHub. But if you are already comfortable with the use of GitHub pull requests are welcome too.
