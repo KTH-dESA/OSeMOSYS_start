@@ -5,7 +5,7 @@ This repo collects information and materials on how to get started with OSeMOSYS
 Below you can find some article that provide you background information on OSeMOSYS and will ease you start in using the modelling framework. We recommend to read the literature carefully. However, depending on your use case not all articles might be relevant for you.
 - [Howells et al. 2011](https://doi.org/10.1016/j.enpol.2011.06.033) this paper discusses the design and development of the Open Source Energy Modeling System (OSeMOSYS)
 - [Gardumi et al. 2018](https://doi.org/10.1016/j.esr.2018.03.005) this paper describes the role of an open-source energy modelling tool in the energy planning process and highlights its importance for society.
-- [Niet et al. 2021](https://doi.org/10.1016/j.esr.2021.100650) covers the latest development of OSeMOSYS and effort of building a community of practice.
+- [Niet et al. 2021](https://doi.org/10.1016/j.esr.2021.100650) covers the latest development of OSeMOSYS and the effort of building a community of practice.
 ### Literature on specific models
 Here we list some articles that describe or applied models built in OSeMOSYS.
 - **TEMBA** the OSeMOSYS model of Africa is used and described by[Taliotis et al. 2016](https://doi.org/10.1016/j.esd.2015.12.001) 
@@ -21,7 +21,7 @@ This section provides you links to tools and interfaces that you probably will n
 ### Version control
 When building and in particular testing a model it is easy to loose track of what changes one has done in the data of the model. A good option to prevent a mess of files with names only the author (hopefully)understands, is version control. Initially it might feel like a burden, but on the long-run it pays back. Here a [tutorial how to get going with GitHub](https://coderefinery.github.io/git-intro/).
 ### Data handling
-OSeMOSYS datafiles are simple `txt` files. However, once you start populating your model with technologies, fuels, and boundary constraints `txt` files become quickly unpractical. Therefore the python package **otoole** has been developed to allow the conversion into datapackages (a folder with one csv file per parameter) or excel file and back.
+OSeMOSYS datafiles are simple `txt` files. However, once you start populating your model with technologies, fuels, and boundary constraints `txt` files become quickly unpractical. Therefore the python package **otoole** has been developed to allow the conversion into datapackages (a folder with one csv file per parameter) or excel file and back to datafile. **otoole** also allows to convert the output of different solvers, that are commonly some kind of text-format into a set of csv-files.
 The documentation on how to install **otoole** and how to use it can be found [here](https://otoole.readthedocs.io/en/latest/).
 
 ## The model code and how to run it
