@@ -5,9 +5,11 @@ This repo collects information and materials on how to get started with OSeMOSYS
 Below you can find some article that provide you background information on OSeMOSYS and will ease you start in using the modelling framework. We recommend to read the literature carefully. However, depending on your use case not all articles might be relevant for you.
 - [Howells et al. 2011](https://doi.org/10.1016/j.enpol.2011.06.033) this paper discusses the design and development of the Open Source Energy Modeling System (OSeMOSYS)
 - [Gardumi et al. 2018](https://doi.org/10.1016/j.esr.2018.03.005) this paper describes the role of an open-source energy modelling tool in the energy planning process and highlights its importance for society.
+- [Niet et al. 2021](https://doi.org/10.1016/j.esr.2021.100650) covers the latest development of OSeMOSYS and effort of building a community of practice.
 ### Literature on specific models
 Here we list some articles that describe or applied models built in OSeMOSYS.
-- [Taliotis et al. 2016](https://doi.org/10.1016/j.esd.2015.12.001) **TEMBA** the OSeMOSYS model of Africa
+- **TEMBA** the OSeMOSYS model of Africa is used and described by[Taliotis et al. 2016](https://doi.org/10.1016/j.esd.2015.12.001) 
+- **SAMBA** the OSeMOSYS model of South America is used and described by [Pinto de Moura et al.](https://doi.org/10.1016/j.esr.2017.06.002) and [Pinto de Moura et al.](https://doi.org/10.1016/j.enpol.2018.01.045).
 - [Henke et al. 2021](https://doi.org/10.1016/j.energy.2021.121973) **OSeMBE** the electricity Model base for Europe
 
 ## Tools and interfaces
